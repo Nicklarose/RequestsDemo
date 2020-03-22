@@ -1,4 +1,5 @@
 import requests
-import time
 
-print ("Test")
+r = requests.get('https://xkcd.com/353/')
+
+print(r)
